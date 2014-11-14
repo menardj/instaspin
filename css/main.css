@@ -84,6 +84,18 @@ a:focus {
   width: 100%;
 }
 
+.section-dark {
+  background-color: #ccc;
+}
+
+.section-mid {
+  background-color: #e2e2e2;
+}
+
+.section {
+  background-color: #efefef;
+}
+
 .masthead {
   overflow: hidden;
 }
@@ -96,7 +108,7 @@ a:focus {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ccc;
+    background-color: rgba(0,0,0,0.75);
 }
 
 .mars-title {
@@ -138,18 +150,6 @@ a:focus {
 .nav .nav-current:visited {
   background-color: #0074D9;
   color: #fff;
-}
-
-.section-dark {
-  background-color: #ccc;
-}
-
-.section-mid {
-  background-color: #e2e2e2;
-}
-
-.section {
-  background-color: #efefef;
 }
 
 .intro {
