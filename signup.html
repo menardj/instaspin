@@ -32,41 +32,60 @@
 <article role="main" id="main">
 
   <div class="section-mid mid island">
-    <h2 class="align-center">Join Mars’ Exploration Team</h2>
-    <p class="align-center">Are you interested in exploring Mars with a group of extremely talented people? <em>Sign up below!</em></p>
+    <h2 class="align-center">Download and Live the COMPANY NAME Experience</h2>
+    <p class="align-center">All your favourite songs and artists at your fingertips, <em>sign up below!</em></p>
 
     <form action="" method="post">
       <div class="push-1-2">
-        <label for="name">Name</label>
+        <label for="name">First Name</label>
+        <input id="name">
+      </div>
+      <div class="push-1-2">
+        <label for="name">Last Name</label>
         <input id="name">
       </div>
       <div class="push-1-2">
         <label for="email">E-mail</label>
         <input type="email" id="email">
       </div>
-      <div class="push-1-2">
-        <label for="age">Age</label>
-        <input type="number" id="age" min="18" max="75">
-      </div>
       <fieldset class="push-1-2">
-        <legend>Your level of awesomeness:</legend>
+        <legend>Package:</legend>
         <span class="radio">
-          <input type="radio" id="meh" name="awesomeness">
-          <label for="meh">Meh…</label>
+          <input type="radio" id="free" name="package">
+          <label for="meh">Free</label>
         </span>
         <span class="radio">
-          <input type="radio" id="pretty-good" name="awesomeness">
-          <label for="pretty-good">Pretty good.</label>
-        </span>
-        <span class="radio">
-          <input type="radio" id="super" name="awesomeness">
-          <label for="super">Super!</label>
+          <input type="radio" id="premium" name="package">
+          <label for="pretty-good">Premium</label>
         </span>
       </fieldset>
-      <div class="push">
-        <label for="why">Explain why you deserve to go:</label>
-        <textarea id="why"></textarea>
+      <div class="push-1-2">
+        <label for="credit-card">Credit Card Number</label>
+        <input id="credit-card">
       </div>
+      <div class="push-1-2">
+        <label for="name">QVC Code</label>
+        <input id="name">
+      </div>
+      <div class="push-1-2">
+        <label for="name">Expiry (MM/YY)</label>
+        <input id="name">
+      </div>
+      <fieldset class="push-1-2">
+        <legend>Credit Card Type:</legend>
+        <span class="radio">
+          <input type="radio" id="visa" name="credit-card-type">
+          <label for="meh">Visa</label>
+        </span>
+        <span class="radio">
+          <input type="radio" id="mastercard" name="credit-card-type">
+          <label for="pretty-good">Mastercard</label>
+        </span>
+        <span class="radio">
+          <input type="radio" id="am-ex" name="credit-card-type">
+          <label for="pretty-good">American Express</label>
+        </span>
+      </fieldset>
       <div class="align-center">
         <button class="tera" type="submit">Sign Up</button>
       </div>
