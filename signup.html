@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>TITLE ME</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Merriweather:400,400italic,700" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/typography.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<ul class="skip-links">
+  <li><a href="#main">Jump to main content</a></li>
+  <li><a href="#navigation">Jump to navigation</a></li>
+</ul>
+
+<header role="banner" class="nav-header grid grid-middle section-dark masthead pad-t-1-2 pad-b-1-2">
+      <div class="unit gutter unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+        <h1 class="mars-title peta push-0">THIS IS YOUR H1</h1>
+      </div>
+  <nav class="unit gutter-1-2 unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3" role="navigation" id="nav">
+    <ul class="nav giga push-0 brand-family">
+      <li><a class="island-1-2" href="index.html">Main</a></li>
+      <li><a class="island-1-2" href="prices.html">Prices</a></li>
+      <li><a class="island-1-2" href="signup.html">Sign Up</a></li>
+    </ul>
+  </nav>
+</header>
+
+<article role="main" id="main">
+
+  <div class="section-mid mid island">
+    <h2 class="align-center">Join Mars’ Exploration Team</h2>
+    <p class="align-center">Are you interested in exploring Mars with a group of extremely talented people? <em>Sign up below!</em></p>
+
+    <form action="" method="post">
+      <div class="push-1-2">
+        <label for="name">Name</label>
+        <input id="name">
+      </div>
+      <div class="push-1-2">
+        <label for="email">E-mail</label>
+        <input type="email" id="email">
+      </div>
+      <div class="push-1-2">
+        <label for="age">Age</label>
+        <input type="number" id="age" min="18" max="75">
+      </div>
+      <fieldset class="push-1-2">
+        <legend>Your level of awesomeness:</legend>
+        <span class="radio">
+          <input type="radio" id="meh" name="awesomeness">
+          <label for="meh">Meh…</label>
+        </span>
+        <span class="radio">
+          <input type="radio" id="pretty-good" name="awesomeness">
+          <label for="pretty-good">Pretty good.</label>
+        </span>
+        <span class="radio">
+          <input type="radio" id="super" name="awesomeness">
+          <label for="super">Super!</label>
+        </span>
+      </fieldset>
+      <div class="push">
+        <label for="why">Explain why you deserve to go:</label>
+        <textarea id="why"></textarea>
+      </div>
+      <div class="align-center">
+        <button class="tera" type="submit">Sign Up</button>
+      </div>
+    </form>
+  </div>
+
+</article>
+
+<footer class="grid island-1-2 section-dark">
+  <div role="contentinfo" class="unit micro unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
+    <p class="copyright push-0">© 2014 TITLE OF COMPANY HERE</p>
+  </div>
+  <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
+    <nav>
+      <ul class="nav nav-footer milli push-0">
+        <li><a href="index.html">Main</a></li>
+        <li><a href="prices.html">Prices</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
