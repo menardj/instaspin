@@ -108,11 +108,12 @@ a:focus {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(0,0,0,0.50);
+    background-color: black;
 }
 
 .main-logo {
-
+  max-width: 250px;
+  margin: 0 auto;
 }
 
 .instaspin-title {
@@ -121,16 +122,60 @@ a:focus {
     text-align: center;
 }
 
+.albumwall-img {
+ width: 100%;
+}
+
+.instaspinbillboard {
+  padding: 8rem 0;
+  background-image: url(../images/albumwall.jpg);
+  background-position: center;
+}
+
 .instaspin-tagline {
+  color: #5F58C4;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.instaspin-info-block1 {
+  padding: 1rem 0;
+  background-color: #404040;
+}
+
+.instaspin-info-block2 {
+  padding: 1rem 0;
+  background-color: #A6A6A6;
+}
+
+.instaspin-title-2 {
+  color: #94F2A2;
+  text-align: center;
+}
+
+.instapin-info1 {
+  color: #5F58C4;
+}
+
+.instaspin-title-3 {
+  color: #5F58C4;
+  text-align: center;
+}
+
+.instapin-info2 {
+  color: black;
 }
 
 .nav {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: #ccc;
+    background-color: black;
     text-align: center;
+}
+
+.nav-footer {
+  background-color: black;
 }
 
 .nav li {
@@ -141,7 +186,7 @@ a:focus {
 .nav a:link,
 .nav a:visited {
   display: block;
-  color: #0074D9;
+  color: #5F58C4;
   text-decoration: none;
 }
 
@@ -151,8 +196,8 @@ a:focus {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-  background-color: #0074D9;
-  color: #fff;
+  background-color: #94F2A2;
+  color: black;
 }
 
 .intro {
@@ -252,13 +297,16 @@ textarea {
 
 .copyright {
   text-align: center;
+  color: #94F2A2;
+}
+
+.footerlinks {
 }
 
 @media only screen and (min-width: 20em) {
 
     .nav a {
-        text-align: center;
-        display: inline-block;
+      display: inline-block;
     }
 
     .nav li {
@@ -282,8 +330,7 @@ textarea {
     }
 
     .nav {
-        display: inline;
-        width: auto;
+      text-align: right;
     }
 
     .copyright {
@@ -291,14 +338,15 @@ textarea {
     }
 
     .nav-footer {
-      float: right;
       text-align: center;
-      display: inline-block;
     }
 
     .nav a {
-        text-align: center;
         display: inline-block;
+    }
+
+    .footerlinks {
+      text-align: right;
     }
 }
 
