@@ -108,17 +108,20 @@ a:focus {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(0,0,0,0.50);
 }
 
-.mars-title {
+.main-logo {
+
+}
+
+.instaspin-title {
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-.mars-tagline {
-  background-color: #e2e2e2;
+.instaspin-tagline {
   text-align: center;
 }
 
@@ -154,10 +157,6 @@ a:focus {
 
 .intro {
   text-align: center;
-}
-
-.discovery-title-extra {
-  display: none;
 }
 
 .table-outer {
@@ -278,7 +277,7 @@ textarea {
 
 @media only screen and (min-width: 45em) {
 
-    .mars-title {
+    .instaspin-title {
         float: left;
     }
 
