@@ -190,6 +190,7 @@ a:focus {
 }
 
 .instapin-info1 {
+  margin: 0 1.5rem 0 1.5rem;
   color: #5F58C4;
 }
 
@@ -200,6 +201,7 @@ a:focus {
 }
 
 .instapin-info2 {
+  margin: 0 1.5rem 0 1.5rem;
   color: black;
 }
 
